@@ -1,0 +1,4 @@
+# Config file to control attributes
+
+Configrations:
+  timeTorRunSimulationInSeconds: 20
