@@ -1,4 +1,6 @@
 # Config file to control attributes
+#In seconds timeToSegrregate to avegare all data
 
 Configrations:
-  timeTorRunSimulationInSeconds: 20
+  timeTorRunSimulationInSeconds: 3600
+  timeToSegregate: 900

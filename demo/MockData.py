@@ -63,7 +63,7 @@ def write_data_to_file(json_data):
 # 12 -25( considered min, max resp rate range)
 class Simulation():
 
-    @timeout(config["timeTorRunSimulationInSeconds"])
+    @timeout(config["timeTorRunSimulationInSeconds"]+1)
     def simulate_mock_data(self, activity, p_data):
         """
         Function that generates mock data every second with diff heart rate and resp rate and incremental activity
